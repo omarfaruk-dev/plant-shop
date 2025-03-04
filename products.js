@@ -168,11 +168,13 @@ const products = [
     id: 23,
   },
 ];
+
+
+
 let cartCount = 0;
 let totalSum = 0;
 
 function add2Cart(price) {
-  console.log(price);
   cartCount++;
   totalSum = totalSum + price;
   document.getElementById("cart-total").innerText = cartCount;
