@@ -187,12 +187,12 @@ function showProducts() {
     console.log(product);
     const productCard = document.createElement("div");
     productCard.innerHTML = `
-    <div class="card bg-base-100 shadow-sm product-card">
+    <div class="card bg-base-100 shadow-md border-2 border-gray-50 product-card">
           <figure class="px-10 pt-10">
             <img
               src="${product.img_url}"
               alt="Shoes"
-              class="rounded-xl"
+              class="rounded-xl h-80"
             />
           </figure>
           <div class="card-body items-center text-center">
